@@ -1,5 +1,5 @@
 C = int(input())
-1
+
 def solution(N, scores):
     avg =sum(scores)/N
     cnt = 0
