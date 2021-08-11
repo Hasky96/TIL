@@ -1,6 +1,7 @@
-
+#문자적힌 원판 최소 시간 맞추는 문제
 string = input()
 
+#알파벳은 26 개 !  A // N
 prev = 'A'
 seconds = 0
 for i in range(len(string)):
