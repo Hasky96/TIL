@@ -1,16 +1,19 @@
+# input
 x = int(input())
-cnt = 0
-while x != 1:
-    if x >= 3 and x % 3 == 0:
-        x = x // 3
-        cnt += 1
-    elif(x >= 3 and((x-1) % 3 ==0) and (((x-1)/3)%3==0)):
-        x -=1
-        cnt += 1
-    elif(x >= 2 and x % 2 == 0):
-        x = x // 2
-        cnt += 1
-    else:
-        x -= 1
-        cnt += 1
-print(cnt)
+ 
+dp = [0] * ((10**6)+1)
+
+for i in range(2, x+1):
+    dp[i] = dp[i-1] + 1
+                           # dp[i-1] dp[i//2] dp[i//3]
+                           #     3       1         2              
+
+    if i % 2 == 0:
+        dp[i] = min(dp[i-1], dp[i//2]) + 1
+    if i % 3 == 0:      
+        dp[i] = min(dp[i-1], dp[i//3]) + 1
+    # dp[12]< dp[18] -> 확신 x ..? 흐름이 그렇다 .... 우연의 일치 
+    if i % 6 == 0: # dp[12] dp[18] min-> ?
+        dp[i] = min(dp[i-1], dp[i//3], dp[i//2]) + 1
+
+print(dp[x])
