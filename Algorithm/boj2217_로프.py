@@ -18,3 +18,7 @@ while len(rope_list)>0:
     weight.append(rope_list.pop(0) * (len(rope_list)+1))
 
 print(max(weight))
+
+
+# test case
+# 10 20 20 20 20 20 -> 60kg  // 100kg

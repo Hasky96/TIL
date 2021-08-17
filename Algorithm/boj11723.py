@@ -1,39 +1,42 @@
+
 M = int(input())
 
-li=[]
-for i in range(M):
-    inp=input()
-    if ' ' in inp:
-        m,a = inp.split()
-        a = int(a)
-    else:
-        if m == 'all':
-            li = list(range(1, 21))
+# empty list
+S = []
 
-        elif m == 'empty':
-            li = []
+for _ in range(M):
+
+    # 연산과 수 받아오기
+    process = input()
+    if 'add' in process:
+        num = int(process.split()[1])
+        if num not in S:
+            S.append(num)
     
-    if m == 'add':
-        if a not in li:
-            li.append(a)
-
-    elif m == 'remove':
-        if a in li:
-            li.remove(a)
-
-    elif m == 'check':
-        if a in li:
-            print('1')
+    elif 'check' in process:
+        num = int(process.split()[1])
+        if num in S:
+            print(1)
         else:
-            print('0')
+            print(0)
+    
+    elif 'remove' in process:
+        num = int(process.split()[1])
+        if num in S:
+            S.remove(num)
 
-    elif m == 'toggle':
-        if a in li:
-            li.remove(a)
+    elif 'toggle' in process:
+        num = int(process.split()[1])
+        if num in S:
+            S.remove(num)
         else:
-            li.append(a)
+            S.append(num)
 
+    elif 'all' in process:
+        S = list(range(1,21))
 
+    elif 'empty' in process:
+        S = []
 
 
 
