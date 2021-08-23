@@ -25,8 +25,23 @@
 #     return answer
 
 # print(solution(n, lost, reserve))
-a = 'adasd'
-print(len(a))
-print(set(a))
-for i in range(5):
-    print( i + 2)
+# a = 'adasd'
+# print(len(a))
+# print(set(a))
+# for i in range(5):
+#     print( i + 2)
+# shorts = [1,2,3]
+# def find(i=0):
+#     if i == len(shorts):
+#         print(shorts)
+#     else:
+#         for j in range(i+1, len(shorts)-1):
+#             shorts[i],  shorts[j] = shorts[j],  shorts[i]
+#             find(i+1)
+#             shorts[i],  shorts[j] = shorts[j],  shorts[i]
+#
+#
+# find(0)
+arr = []
+arr.insert(0,9)
+print(arr)
