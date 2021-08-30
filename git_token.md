@@ -8,5 +8,5 @@ git remote add origin ""https://github-username@github.com/github-username/githu
 
 Token
 
-TIL TOKEN : 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
+TIL TOKEN : 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
 
