@@ -41,7 +41,9 @@
 #             shorts[i],  shorts[j] = shorts[j],  shorts[i]
 #
 #
-# find(0)
-arr = []
-arr.insert(0,9)
-print(arr)
+# # find(0)
+# arr = []
+# arr.insert(0,9)
+# print(arr)
+
+print('A'<'B')
