@@ -60,5 +60,43 @@
 #
 # arr = [1, 2, 3, 4]
 # comb(0, 4, 3)
-arr = [1,2,3,4]
-a= String(arr)
+# arr = [1,2,3,4]
+# a= String(arr)
+class Q:
+    def __init__(self, n):
+        self.Q = [0] * n
+        self.st = 0
+        self.en = -1
+
+    def push(self, x):
+        self.en += 1
+        self.Q[self.en] = x
+
+    def pop(self):
+        if self.st <= self.en:
+            self.st += 1
+            return self.Q[self.st-1]
+        else:
+            return -1
+    def size(self):
+        return self.en - self.st
+
+    def empty(self):
+        return int(self.st > self.en)
+
+    def front(self):
+        if self.st <= self.en :
+            return self.Q[self.st]
+        else:
+            return -1
+
+    def back(self):
+        if self.st <= self.en :
+            return self.Q[self.en]
+        else:
+            return -1
+
+q=Q(3)
+print(q.en)
+q.push(3)
+print(q.en)
