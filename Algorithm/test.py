@@ -46,4 +46,19 @@
 # arr.insert(0,9)
 # print(arr)
 
-print('A'<'B')
+# print('A'<'B')
+
+# def comb(i,p,r):
+#     if i == r:
+#         print(arr[:r])
+#     else:
+#         for j in range(i, p):
+#             arr[i], arr[j] = arr[j], arr[i]
+#             comb(i+1, p, r)
+#             arr[i], arr[j] = arr[j], arr[i]
+#
+#
+# arr = [1, 2, 3, 4]
+# comb(0, 4, 3)
+arr = [1,2,3,4]
+a= String(arr)
