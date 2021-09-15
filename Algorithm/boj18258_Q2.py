@@ -26,13 +26,13 @@ class Q:
         return int(self.st > self.en)
 
     def front(self):
-        if self.st <= self.en :
+        if self.st <= self.en:
             return self.Q[self.st]
         else:
             return -1
 
     def back(self):
-        if self.st <= self.en :
+        if self.st <= self.en:
             return self.Q[self.en]
         else:
             return -1

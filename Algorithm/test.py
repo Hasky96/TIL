@@ -100,6 +100,5 @@
 # # print(q.en)
 # # q.push(3)
 # # print(q.en)
-N = 9
-if not 0 <= N < 10:
-    print(N)
+
+from collections import deque

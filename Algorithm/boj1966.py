@@ -22,4 +22,4 @@ for case in range(test_case):
             count += 1
         else :
             print_list.append(check)
-        
+        5
