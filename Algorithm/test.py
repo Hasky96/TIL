@@ -102,3 +102,9 @@
 # # print(q.en)
 
 from collections import deque
+# a = '11'
+# print(len(a))
+# print(len(set(a)))
+a = [1,2,3,4,5,6]
+min = max
+print(min(a))
