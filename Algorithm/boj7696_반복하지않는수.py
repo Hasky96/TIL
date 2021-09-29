@@ -32,3 +32,4 @@ while True:
         break
     print(ans[inp])
 
+

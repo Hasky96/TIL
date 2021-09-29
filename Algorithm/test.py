@@ -102,9 +102,63 @@
 # # print(q.en)
 
 from collections import deque
+
+
 # a = '11'
 # print(len(a))
 # print(len(set(a)))
-a = [1,2,3,4,5,6]
-min = max
-print(min(a))
+# a = [1,2,3,4,5,6]
+# min = max
+# print(min(a))
+# b = 'asdfgh'
+# print(list(b)[::-1])
+
+#
+# def find(i=0):
+#     if i == len(shorts):
+#         print(shorts)
+#     else :
+#         for j in range(i + 1, len(shorts) - 1):
+#             shorts[i], shorts[j] = shorts[j], shorts[i]
+#             find(i + 1)
+#             shorts[i], shorts[j] = shorts[j], shorts[i]
+#
+#
+# shorts = [1, 2, 3]
+# find()
+# def comb(i, p, r):
+#     if i == r:
+#         print(arr[:r])
+#     else:
+#         for j in range(i, p):
+#             arr[i], arr[j] = arr[j], arr[i]
+#             comb(i+1, p, r)
+#             arr[i], arr[j] = arr[j], arr[i]
+#
+#
+# arr = [1, 2, 3, 4]
+# comb(0, 4, 3)
+
+# 모든경우릐 수가 나오는 조합 나옴
+def comb(i,r):
+    if i == r:
+        print(arr[:r])
+    else:
+        for j in range(i, len(arr)):
+            arr[i], arr[j] = arr[j], arr[i]
+            comb(i+1, r)
+            arr[i], arr[j] = arr[j], arr[i]
+
+
+arr = [1, 2, 3, 4]
+comb(0, 4)
+
+
+def comb(i, r):
+    if i == r:
+        print(arr[:r])
+    else:
+        for j in range(i, len(arr)):
+            arr[i], arr[j] = arr[j], arr[i]
+            comb(i+1, r)
+            arr[i], arr[j] = arr[j], arr[i]
