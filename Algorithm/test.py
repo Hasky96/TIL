@@ -140,25 +140,39 @@ from collections import deque
 # comb(0, 4, 3)
 
 # 모든경우릐 수가 나오는 조합 나옴
-def comb(i,r):
-    if i == r:
-        print(arr[:r])
-    else:
-        for j in range(i, len(arr)):
-            arr[i], arr[j] = arr[j], arr[i]
-            comb(i+1, r)
-            arr[i], arr[j] = arr[j], arr[i]
-
-
-arr = [1, 2, 3, 4]
-comb(0, 4)
-
-
-def comb(i, r):
-    if i == r:
-        print(arr[:r])
-    else:
-        for j in range(i, len(arr)):
-            arr[i], arr[j] = arr[j], arr[i]
-            comb(i+1, r)
-            arr[i], arr[j] = arr[j], arr[i]
+# def comb(i,r):
+#     if i == r:
+#         print(arr[:r])
+#     else:
+#         for j in range(i, len(arr)):
+#             arr[i], arr[j] = arr[j], arr[i]
+#             comb(i+1, r)
+#             arr[i], arr[j] = arr[j], arr[i]
+#
+#
+# arr = [1, 2, 3, 4]
+# comb(0, 4)
+#
+#
+# def comb(i, r):
+#     if i == r:
+#         print(arr[:r])
+#     else:
+#         for j in range(i, len(arr)):
+#             arr[i], arr[j] = arr[j], arr[i]
+#             comb(i+1, r)
+#             arr[i], arr[j] = arr[j], arr[i]
+# for i in range(1,100 ):
+#     print(i,':', (i-1)%29)
+# N = 1000000000
+# num = -1
+# w = 1
+# while N:
+#     N -= 1
+#     if num == 16:
+#         w=-1
+#     elif num == 1:
+#         w=1
+#     num += w
+# print(num)
+arr = [1, 2, 3]
