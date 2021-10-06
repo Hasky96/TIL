@@ -175,4 +175,6 @@ from collections import deque
 #         w=1
 #     num += w
 # print(num)
-arr = [1, 2, 3]
+# arr = [1, 2, 3]
+
+print(ord('Z'))

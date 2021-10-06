@@ -16,6 +16,7 @@ def strawberry(num):
 for _ in range(T):
     N = int(input())
     ans = strawberry(sb[(N-1)%28])
+    print(ans)
     for i in ans:
         if i == '1':
             print('딸기', end='')
