@@ -29,7 +29,11 @@ lab = []
 
 for _ in range(N):
     lab.extend(list(map(int, input().split())))
+<<<<<<< HEAD
 print(lab)
+=======
+
+>>>>>>> 77865bbd3b5e2f570cea88771e45f691bb16104f
 # 2차원 배열에 3개의 벽을 놓는 경우의 수 벽을 i j k 라 생각하자
 maximum = 0
 for i in range(len(lab)-2):
