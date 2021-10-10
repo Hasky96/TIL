@@ -102,3 +102,36 @@
 # # print(q.en)
 
 from collections import deque
+# str = [1,2,3,4,5,6]
+# s = '123'
+# print(list(s))
+# print(str[0:4])
+def find_next(n):
+    # number list 0~9
+    sn = str(n)
+    len_n = len(sn)
+    for idx in range(len(sn)-1):
+        num_list = [0]*10
+        num_list[int(sn[idx])] = 1
+        for jdx in range(idx+1, len(sn)):
+            int_sn = int(sn[jdx])
+            if num_list[int(sn[jdx])]:
+                if int_sn == 9:
+                    sn = str(int(sn[:jdx+1])+1)
+                    while len(sn) < len_n:
+                        sn += '0'
+                    print(n, 'function', sn)
+                    return int(sn)
+                sn = sn[:jdx]
+                kdx = int_sn+1
+                while True:
+                    if not num_list[kdx]:
+                        sn += str(kdx)
+                        num_list[kdx] = 1
+                    if len(sn) >= len_n:
+                        return int(sn)
+                    else:
+                        kdx = -1
+                    kdx += 1
+print(find_next(1000))
+# print('123'+'0'*3)

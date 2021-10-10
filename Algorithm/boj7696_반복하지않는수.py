@@ -1,28 +1,20 @@
-# 반복하지 않는 수
+def find_next(n):
+    num_list = [0]*10
+    len_n = len(str(n))
+    return 1
 
-while True:
-    n = int(input())
-    if n == 0:
-        break
-    arr = [0] * 1000001
 
-    for i in range(1, n+1):
-        value = arr[i-1] + 1
-        idx = len(str(value))
-        while True:
-            jfor = 1
-            for j in range(idx-1):
-                for k in range(j+1,idx):
-                    if value//10**(idx-1-j) == value//10**(idx-1-k):
-                        value //= 10**(idx-1-k)
-                        value += 1
-                        value *= 10**(idx-1-k)
-                        jfor = 0 
-                        break;
-                if jfor == 0:
-                    break
-            if jfor == 1 :
-                break
-        arr[i] = value
-    print(arr[n])
+ans_list = []
 
+num = 1
+while len(ans_list) <= 10000:
+    # 겹치는 숫자가 있다면
+    if 2 <= len(str(num)) != len(set(str(num))):
+        num = find_next(num)
+        print(num)
+    else:
+        ans_list.append(num)
+        print(num)
+        # 숫자 증가
+        num += 1
+print(ans_list[9999])
