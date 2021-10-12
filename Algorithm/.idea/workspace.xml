@@ -12,18 +12,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e44e638b-73d3-42d9-875a-1e6597905442" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/boj2012_등수매기기.py" beforeDir="false" afterPath="$PROJECT_DIR$/boj2012_등수매기기.py" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/boj14502_연구소.py" beforeDir="false" afterPath="$PROJECT_DIR$/boj14502_연구소.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boj7696_반복하지않는수.py" beforeDir="false" afterPath="$PROJECT_DIR$/boj7696_반복하지않는수.py" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/2078_무한이진트리.py" beforeDir="false" afterPath="$PROJECT_DIR$/boj2078_무한이진트리.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boj14502_연구소.py" beforeDir="false" afterPath="$PROJECT_DIR$/boj14502_연구소.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boj22935_이진딸기.py" beforeDir="false" afterPath="$PROJECT_DIR$/boj22935_이진딸기.py" afterDir="false" />
+>>>>>>> 77865bbd3b5e2f570cea88771e45f691bb16104f
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+>>>>>>> 8eedaacf117516c243fff6459b39b72935ce406a
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FavoritesManager">
     <favorites_list name="Algorithm" />
   </component>
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 8eedaacf117516c243fff6459b39b72935ce406a
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -82,6 +100,7 @@
       </file>
     </leaf>
   </component>
+>>>>>>> 77865bbd3b5e2f570cea88771e45f691bb16104f
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -164,6 +183,7 @@
     <option name="width" value="1944" />
     <option name="height" value="2124" />
   </component>
+  <component name="ProjectId" id="1yOkAzJrmLqvwzgn1PRAGl6Pwhm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -186,11 +206,21 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
+<<<<<<< HEAD
+  <component name="RunManager" selected="Python.test">
+    <configuration name="boj14502_연구소" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -205,18 +235,23 @@
   </component>
   <component name="RunManager" selected="Python.boj17471_게리맨더링">
     <configuration name="boj1213_팰린드롬만들기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 77865bbd3b5e2f570cea88771e45f691bb16104f
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/boj14502_연구소.py" />
+=======
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/boj1213_팰린드롬만들기.py" />
+>>>>>>> 77865bbd3b5e2f570cea88771e45f691bb16104f
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -225,28 +260,15 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="boj17471_게리맨더링" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/boj17471_게리맨더링.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+=======
+<<<<<<< HEAD
+    <configuration name="boj1920_수찾기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
     <configuration name="boj2012_등수매기기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 77865bbd3b5e2f570cea88771e45f691bb16104f
+>>>>>>> 8eedaacf117516c243fff6459b39b72935ce406a
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -258,7 +280,15 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/boj17471_게리맨더링.py" />
+=======
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/boj1920_수찾기.py" />
+=======
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/boj2012_등수매기기.py" />
+>>>>>>> 77865bbd3b5e2f570cea88771e45f691bb16104f
+>>>>>>> 8eedaacf117516c243fff6459b39b72935ce406a
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -267,7 +297,15 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="p346Q18_ 괄호변환" type="PythonConfigurationType" factoryName="Python" temporary="true">
+<<<<<<< HEAD
+    <configuration name="boj2012_등수매기기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+<<<<<<< HEAD
+    <configuration name="boj1931_회의실" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="boj4795_캠핑" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 77865bbd3b5e2f570cea88771e45f691bb16104f
+>>>>>>> 8eedaacf117516c243fff6459b39b72935ce406a
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -279,7 +317,52 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/boj2012_등수매기기.py" />
+=======
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/boj1931_회의실.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/boj4795_캠핑.py" />
+>>>>>>> 77865bbd3b5e2f570cea88771e45f691bb16104f
+>>>>>>> 8eedaacf117516c243fff6459b39b72935ce406a
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+<<<<<<< HEAD
+    <configuration name="p346Q18_ 괄호변환" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+<<<<<<< HEAD
+    <configuration name="boj7696_반복하지않는수" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="boj9237_이장님초대" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 77865bbd3b5e2f570cea88771e45f691bb16104f
+>>>>>>> 8eedaacf117516c243fff6459b39b72935ce406a
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/p346Q18_ 괄호변환.py" />
+=======
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/boj7696_반복하지않는수.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/boj9237_이장님초대.py" />
+>>>>>>> 77865bbd3b5e2f570cea88771e45f691bb16104f
+>>>>>>> 8eedaacf117516c243fff6459b39b72935ce406a
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -309,16 +392,40 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.boj14502_연구소" />
+      <item itemvalue="Python.boj1920_수찾기" />
+      <item itemvalue="Python.boj1931_회의실" />
+      <item itemvalue="Python.boj7696_반복하지않는수" />
+    </list>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Python.boj17471_게리맨더링" />
         <item itemvalue="Python.p346Q18_ 괄호변환" />
         <item itemvalue="Python.boj2012_등수매기기" />
         <item itemvalue="Python.boj1213_팰린드롬만들기" />
         <item itemvalue="Python.test" />
+=======
+<<<<<<< HEAD
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.boj7696_반복하지않는수" />
+        <item itemvalue="Python.boj1931_회의실" />
+        <item itemvalue="Python.boj1920_수찾기" />
+        <item itemvalue="Python.boj14502_연구소" />
+=======
+        <item itemvalue="Python.boj2012_등수매기기" />
+        <item itemvalue="Python.boj1213_팰린드롬만들기" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.boj9237_이장님초대" />
+        <item itemvalue="Python.boj4795_캠핑" />
+>>>>>>> 77865bbd3b5e2f570cea88771e45f691bb16104f
+>>>>>>> 8eedaacf117516c243fff6459b39b72935ce406a
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -392,6 +499,16 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+<<<<<<< HEAD
+          <url>file://$PROJECT_DIR$/boj1931_회의실.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="16" />
+=======
           <url>file://$PROJECT_DIR$/boj14888_연산자끼워넣기(p349Q19).py</url>
           <line>10</line>
           <option name="timeStamp" value="11" />
@@ -409,6 +526,7 @@
           <url>file://$PROJECT_DIR$/boj1213_팰린드롬만들기.py</url>
           <line>9</line>
           <option name="timeStamp" value="15" />
+>>>>>>> 77865bbd3b5e2f570cea88771e45f691bb16104f
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/boj18428_감시피하기(p351Q20).py</url>

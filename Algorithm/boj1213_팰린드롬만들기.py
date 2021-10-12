@@ -5,7 +5,7 @@ inp = list(input())
 for char in inp:
     alpha[ord(char)-65] += 1
 ans = ''
-last =''
+last = ''
 # 홀수 이면
 for i in range(65, 91):
     if last != '' and alpha[i-65] % 2:
