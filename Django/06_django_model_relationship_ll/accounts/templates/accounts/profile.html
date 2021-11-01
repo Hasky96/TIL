@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block content %}
+  {% with followings=person.followings.all followers= person.followers.all %}
+  <h1>{{ person.username}}'s Profile Page</h1>
+  <div>
+    <div>팔로잉 : {{followings|length}} / 팔로워 : {{followers.count}}</div>
+  </div>
+  {% if user != person %}
+  <div>
+    <form action="{% url 'accounts:follow' person.pk %}" method="post">
+      {% csrf_token %}
+      {% if user in followers.all %}
+        <input type="submit" value='언팔로우'>
+      {% else %}
+        <input type="submit" value='팔로우'>
+      {% endif %}
+    </form>
+  </div>
+  {% endif %}
+  {% endwith %}
+  <hr>
+
+  <h2>{{ person.username }}'s article</h2>
+    {% for article in person.article_set.all %}
+      <div>{{ article.title }}</div>
+    {% endfor %}
+  <hr>
+  
+  <h2>{{ person.username }}'s comment</h2>
+    {% for comment in person.comment_set.all %}
+      <div>{{ comment.content }}</div>
+      <div>{{comment.article.title}}</div>
+    {% endfor %}
+
+  <hr>
+
+  <h2>Articles {{ person.username }} likes</h2>
+    {% for article in person.like_article.all  %}
+      <div>{{article.title}}</div>
+    {% endfor %}
+
+    <a href="{% url 'articles:index' %}">home</a>
+{% endblock content %}

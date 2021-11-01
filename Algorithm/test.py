@@ -210,5 +210,32 @@ from collections import deque
 #     num += w
 # print(num)
 # arr = [1, 2, 3]
+N = 5
+arr = [1, 2, 3, 4, 5 ]
+ans = []
+used = [0, 0, 0, 0, 0] # = visited
+def perm(level, cut):
+    if level == cut:
+        print(ans)
+        return
+    for i in range(5):
+        if not used[i]:
+            ans.append(arr[i])
+            used[i] = 1
+            perm(level+1, cut)
+            used[i] = 0
+            ans.pop()
 
-print(max('asdf','vsdv'))
+# perm(0, 3)
+
+def comb(level, cut, j):
+    if level == cut:
+        print(ans)
+        return
+
+    for i in range(j, N):
+        ans.append(arr[i])
+        comb(level + 1, cut, i+1)
+        ans.pop()
+
+comb(0,3,0)

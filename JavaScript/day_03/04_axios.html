@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Axios CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <script>
+    // Promise
+    // .then 성공했을때에 대한 요청. => 여러개 사용가능 연쇄적인 작업 가능 Chaining
+    //  ㄴ> 반드시 return value이 있어야함 => 다음 then의 인자로 사용됨
+    // .catch 실패에 대한 약속.
+    // .finally 결과와 상관없이 무조건 실행됨 
+    // Axios -> response를 promise객체로 돌려줄 => .then
+    // ㄴ> axios.get(URL) => response : promise
+
+    const URL = 'https://jsonplaceholder.typicode.com/todos/1/'
+    const myPromise = axios.get(URL)
+    // console.log(myPromise)
+    myPromise
+      .then(response =>{
+        console.log(response)
+        return response.data
+      })
+      .then(data => {
+        console.log(data)
+        return data.title
+      })
+      .then(title => {
+        console.log(title)
+      })
+      .catch(error=>{
+        console.log(error)
+      })
+      .finally(function(){
+        console.log('무조건 실행')
+      })
+  </script>
+</body>
+</html>
