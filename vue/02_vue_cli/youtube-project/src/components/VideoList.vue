@@ -1,7 +1,13 @@
 <template>
-  <ul>
-    <video-list-item></video-list-item>
-  </ul>
+  <div>
+      <video-list-item
+        v-for="video in videos" 
+        :key="video.id.videoId"
+        :video="video"
+        @select-video="onSelectVideo"
+      >
+      </video-list-item>
+  </div>
 </template>
 
 <script>
@@ -13,7 +19,16 @@ export default {
   components: {
     VideoListItem,
   },
-  props: {
+  props:{
+    videos:{
+      type:Array,
+      required: true,
+    }
+  },
+  methods:{
+    onSelectVideo : function(video){
+      this.$emit('select-video', video)
+    }
 
   }
 }

@@ -6,6 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="cad964c6-f315-4b10-805a-50fc2c796fa2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/02_vue_cli/my-router-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/02_vue_cli/my-router-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/02_vue_cli/my-router-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/02_vue_cli/my-router-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/02_vue_cli/my-router-app/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/02_vue_cli/my-router-app/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/02_vue_cli/my-router-app/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/02_vue_cli/my-router-app/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/02_vue_cli/youtube-project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/02_vue_cli/youtube-project/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/02_vue_cli/youtube-project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/02_vue_cli/youtube-project/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/02_vue_cli/youtube-project/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/02_vue_cli/youtube-project/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/02_vue_cli/youtube-project/src/components/TheSearchBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/02_vue_cli/youtube-project/src/components/TheSearchBar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/02_vue_cli/youtube-project/src/components/VideoDetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/02_vue_cli/youtube-project/src/components/VideoDetail.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/02_vue_cli/youtube-project/src/components/VideoList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/02_vue_cli/youtube-project/src/components/VideoList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/02_vue_cli/youtube-project/src/components/VideoListItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/02_vue_cli/youtube-project/src/components/VideoListItem.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +26,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/boj1932_정수삼각형.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/boj11404_플로이드.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
             </state>
           </provider>
         </entry>
@@ -59,6 +79,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>start</find>
+      <find>&lt;</find>
     </findStrings>
     <replaceStrings>
       <replace>now</replace>
@@ -81,13 +102,14 @@
         <option value="$PROJECT_DIR$/boj18353_병사배치하기.py" />
         <option value="$PROJECT_DIR$/boj14501_퇴사.py" />
         <option value="$PROJECT_DIR$/boj1932_정수삼각형.py" />
+        <option value="$PROJECT_DIR$/boj11404_플로이드.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="366" />
-    <option name="width" value="4068" />
-    <option name="height" value="2723" />
+    <option name="x" value="1228" />
+    <option name="width" value="2621" />
+    <option name="height" value="2111" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -97,7 +119,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,6 +130,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -127,7 +149,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.boj18353_병사배치하기">
+  <component name="RunManager" selected="Python.boj11404_플로이드">
+    <configuration name="boj11404_플로이드" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/boj11404_플로이드.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="boj14501_퇴사" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,27 +234,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="p367Q27_정렬된배열에서숫자갯수" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/p367Q27_정렬된배열에서숫자갯수.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="p368Q28_고정점찾기" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -235,11 +257,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.boj11404_플로이드" />
         <item itemvalue="Python.boj18353_병사배치하기" />
         <item itemvalue="Python.boj14501_퇴사" />
         <item itemvalue="Python.boj1932_정수삼각형" />
         <item itemvalue="Python.p368Q28_고정점찾기" />
-        <item itemvalue="Python.p367Q27_정렬된배열에서숫자갯수" />
       </list>
     </recent_temporary>
   </component>
@@ -257,9 +279,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="244" y="0" width="2712" height="1815" extended-state="0" />
+    <frame x="819" y="0" width="1747" height="1407" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11511061" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1005848" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -304,6 +326,11 @@
           <url>file://$PROJECT_DIR$/boj14501_퇴사.py</url>
           <line>1</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/boj11404_플로이드.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -392,6 +419,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/boj1932_정수삼각형.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/boj14501_퇴사.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -409,10 +443,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boj1932_정수삼각형.py">
+    <entry file="file://$PROJECT_DIR$/boj11404_플로이드.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="16" />
+        <state relative-caret-position="684">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
         </state>
       </provider>
     </entry>
