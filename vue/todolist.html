@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+  <style>
+    .done{
+      text-decoration: line-through;
+    }
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <div id="app">
+    <h1>ToDoList</h1>
+    <select v-model="selected">
+      <option value="all">전체</option>
+      <option value="onProcess">진행중</option>
+      <option value="completed">완료</option>
+    </select>
+    <input type="text" v-model="content">
+    <button @click='add'>button</button> <br>
+    <ul v-for="todo in filteredTodoList" :key="todo.id">
+      <li><input type="checkbox" v-model="todo.completed">
+        <span :class="{done:todo.completed}"> {{todo.content}}</span>
+      </li>
+    </ul><br>
+    <button @click="delCompletedTodo">Clear completed todo</button>
+  </div>
+  <script>
+    const STORAGE_KEY = 'vue-todo-app'
+    const todoStorage = {
+      //정보가져오기
+      get(){
+        // String -> JSON // JSON.parse
+        return JSON.parse(localStorage.getItem(STORAGE_KEY))
+      },
+      //정보저장하기
+      save(item){
+        // JSON -> String // JSON.stringify
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(item))
+      }
+    }
+
+    const app = new Vue({
+      el: '#app',
+      data: {
+        message: "Hello Vue!",
+        todoList: todoStorage.get() ?? [],
+        content: null,
+        selected : "all",
+      },
+      methods:{
+        add(){
+          const todo = {
+            id : new Date().getTime(),
+            content : this.content,
+            completed : false,
+          }
+          this.todoList.push(todo)
+          console.log(this.content)
+          this.content = null
+        },
+        delCompletedTodo(){
+          this.todoList = this.todoList.filter(todo => !todo.completed)
+        },
+      },
+      computed:{
+        filteredTodoList : function() {
+          return filteredTodoList = this.todoList.filter( todo => {
+            if (this.selected==="onProcess") return !todo.completed
+            else if(this.selected==="completed") return todo.completed
+            else return true
+          })  
+        }
+      },
+      watch: {
+        todoList:{
+          //내부 속성도 본다.
+          deep : true,
+          handler: function(todos){
+            console.log("로컬스토리지에 저장됨")
+            todoStorage.save(todos)
+          }
+        }
+      },
+    })
+  </script>
+</body>
+</html>

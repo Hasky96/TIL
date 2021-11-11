@@ -71,7 +71,6 @@ def floyd():
                         ex_map[i][j] = ex_map[i][k] + ex_map[k][j]
 
 
-
 floyd()
 for r in ex_map[1:]:
     for res in r[1:]:
